@@ -1,0 +1,10 @@
+.page {
+    max-width: 1280px;
+    /* для экранов больше 1280px отцентрировали весь контент */
+    margin: 0 auto;
+    font-family: "Inter", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 28px 0px 24px;
+    background-color: #2A2C2F;
+  }
