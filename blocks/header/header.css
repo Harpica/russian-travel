@@ -3,3 +3,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+  .header{
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header{
+    width: calc(100% - 32px);
+  }
+}
