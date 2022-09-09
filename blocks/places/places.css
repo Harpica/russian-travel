@@ -1,4 +1,4 @@
-.intro {
+.places {
   /* ширина равняется ширине изображения в блоке lead */
   width: 984px;
   align-self: center;
@@ -6,22 +6,20 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .intro{
+  .places {
     width: 928px;
-
   }
 }
 
-
 @media screen and (max-width: 1023px) {
-  .intro{
+  .places {
     /* ширина рассчитана для padding 24px, чтобы блок был по центру */
     width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 767px) {
-  .intro{
+  .places {
     width: calc(100% - 32px);
   }
 }

@@ -1,0 +1,32 @@
+.places__place {
+  width: 100%;
+  list-style: none;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(min-content, max-content)); */
+  /* grid-template-columns: repeat(auto-fit, fit-content(484px)); */
+  /* максимальное значение fit-content равно максимальному зачению колонки текста в макете */
+  grid-template-columns:  fit-content(484px) fit-content(484px);
+  grid-template-rows: 76px, 460px;
+  gap: 48px 40px;
+
+}
+
+@media screen and (max-width: 1279px) {
+  .places__place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__place {
+    gap: 48px 28px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .places__place {
+    grid-template-columns: repeat(auto-fit, 100%);
+    gap: 25px 0;
+  }
+}

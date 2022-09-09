@@ -1,0 +1,7 @@
+.places__link-container {
+ display: flex;
+ flex-direction: column;
+ align-self: flex-end;
+   /* максимальная ширина равна ширине картинки ниже */
+   max-width: 460px;
+}

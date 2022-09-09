@@ -1,7 +1,8 @@
 .content {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  max-width: 1280px;
   row-gap: 92px;
   padding-top: 56px;
   padding-bottom: 92px;
