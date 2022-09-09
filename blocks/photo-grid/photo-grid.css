@@ -1,8 +1,30 @@
 .photo-grid {
   box-sizing: border-box;
   display: grid;
+  justify-content: center;
   gap: 16px;
   width:100%;
-  grid-template-columns: repeat(auto-fit, 284px);
+  grid-template-columns: repeat(4, fit-content(352px));
   padding: 0 48px;
 }
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, fit-content(352px));
+  }
+  }
+
+@media screen and (max-width: 1023px) {
+.photo-grid {
+  padding: 0 24px;
+  grid-template-columns: repeat(2, fit-content(352px));
+}
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    padding: 0 16px;
+    grid-template-columns: fit-content(352px);
+  }
+  }
+

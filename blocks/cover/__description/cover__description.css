@@ -8,3 +8,11 @@
   text-align: center;
   margin:auto;
 }
+
+@media screen and (max-width: 767px) {
+  .cover__description {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
