@@ -1,0 +1,41 @@
+.cover {
+  background-image: url(../../images/cover_background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  box-sizing: border-box;
+  width: 1184px;
+  height: 740px;
+  position: relative;
+}
+
+.cover::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+}
+
+.cover:hover::after {
+  opacity: 0.8;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    width: 1024px;
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    /* для того, чтобы изображение уменьшалось пропорционально вместе с экараном */
+    width: 100%;
+    height: calc(0.625 * 100vw);
+  }
+}
