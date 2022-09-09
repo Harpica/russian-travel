@@ -22,9 +22,9 @@
   }
 } */
 
-/*
+
 @media screen and (max-width: 425px) {
   .page {
     padding: 16px calc((100% - 320px) / 2) 24px;
   }
-} */
+}
