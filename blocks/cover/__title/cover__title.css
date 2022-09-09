@@ -6,4 +6,6 @@
   z-index: 1;
   max-width: 560px;
   text-align: center;
+  margin: 0;
+  padding-bottom: 32px;
 }
