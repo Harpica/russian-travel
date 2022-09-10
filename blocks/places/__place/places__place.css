@@ -3,7 +3,7 @@
   list-style: none;
   display: grid;
   box-sizing: border-box;
-  grid-template-rows: fit-content(460px) fit-content(460px);
+  grid-template-rows: repeat(2, fit-content(460px));
   grid-template-columns:  repeat(2, fit-content(50%));
   gap: 48px 40px;
 

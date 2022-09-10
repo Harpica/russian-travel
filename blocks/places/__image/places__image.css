@@ -25,7 +25,6 @@
   }
 }
 
-/* прибавлен padding 16px с двух сторон для центрирования в max-width*/
 @media screen and (max-width: 352px) {
   .places__image {
     width: 100%;

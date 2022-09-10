@@ -1,9 +1,9 @@
 .page {
+  width: 100%;
+  font-family: "Inter", Arial, sans-serif;
   /* Сглаживаем шрифты */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 100%;
-  font-family: "Inter", Arial, sans-serif;
   padding: 28px 0 24px;
   background-color: #2a2c2f;
   color: #ffffff;

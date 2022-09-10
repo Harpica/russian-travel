@@ -8,7 +8,7 @@
   grid-row: 1;
 }
 
-@media screen and (max-width: 1079px) {
+@media screen and (max-width: 1279px) {
   .places__title {
     max-width: 440px;
   }
