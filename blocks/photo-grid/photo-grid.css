@@ -5,6 +5,7 @@
   gap: 16px;
   width:100%;
   grid-template-columns: repeat(4, fit-content(352px));
+  margin: 0;
   padding: 0 48px;
 }
 

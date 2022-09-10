@@ -17,9 +17,7 @@
   content: "";
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
   background-color: #2A2C2F;
   opacity: 0.3;
 }
@@ -36,7 +34,9 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+/* breackpoit выбран, чтобы учесть ширину вертикального scrollbar'a,
+из-за которого при приближении к размеру изображения 1024px появляется горизонтальная прокрутка*/
+@media screen and (max-width: 1040px) {
   .cover {
     /* для того, чтобы изображение уменьшалось пропорционально вместе с экараном */
     width: 100%;

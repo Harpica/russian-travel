@@ -1,4 +1,6 @@
 @import url(../vendor/normalize.css);
+/* Подключаем шрифты */
+@import url(../vendor/fonts.css);
 /* Подключаем стили корневого элемента */
 @import url(../blocks/root/root.css);
 /* Подлючаем стили header */
@@ -26,6 +28,7 @@
 /* Подлючаем стили photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
 /* Подлючаем стили places*/
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__place/places__place.css);
@@ -47,20 +50,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);
-
-
-
-
-/* Подключаем шрифты */
-@font-face {
-    font-family: 'Inter';
-    src: url(../fonts/Inter-Regular.woff2) format('woff2');
-    src: url(../fonts/Inter-Regular.woff) format('woff');
-}
-@font-face {
-    font-family: 'Inter';
-    src: url(../fonts/Inter-Bold.woff2) format('woff2');
-    src: url(../fonts/Inter-Bold.woff) format('woff');
-    font-weight: bold;
-}
-

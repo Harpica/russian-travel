@@ -3,14 +3,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
-  min-width: 320px;
   font-family: "Inter", Arial, sans-serif;
   padding: 28px 0 24px;
   background-color: #2a2c2f;
   color: #ffffff;
   display: grid;
   justify-content: center;
-  grid-template-columns: minmax(320px, 1280px);
+  grid-template-columns: minmax(303px, 1280px);
+
 }
 
 @media screen and (max-width: 425px) {
