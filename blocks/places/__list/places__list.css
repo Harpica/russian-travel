@@ -8,8 +8,14 @@
   padding: 0;
 }
 
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 1023px) {
   .places__list{
     row-gap: 72px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__list{
+    row-gap: 50px;
   }
 }
