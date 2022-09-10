@@ -1,23 +1,24 @@
-# Проект: Путешествие по России
+# project 'Russian travel'
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+### Second project from Ya.Practicum course
 
-**Интро**
+## Description
+* This is one-page site with links to different travel resources,
+which is adapted for common used devices.
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+## Link to published site on GitHub
+* https://harpica.github.io/russian-travel/
 
-**Figma**
+**Insruments & Tecnologies**
+* HTML5.
+* CSS3.
+* Figma.
+------
+* BEM.
+* Nestled file structure of the project.
+* Semantic tags in HTML.
+* Adaptive design.
+* Grid&Flexbox were used.
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+## Futher development
+* Cross-browser adaptation.
