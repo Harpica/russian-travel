@@ -9,7 +9,7 @@ which is adapted for common used devices.
 ## Link to published site on GitHub
 * https://harpica.github.io/russian-travel/
 
-**Insruments & Tecnologies**
+## Insruments & Tecnologies
 * HTML5.
 * CSS3.
 * Figma.
