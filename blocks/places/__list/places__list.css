@@ -7,3 +7,9 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 785px) {
+  .places__list{
+    row-gap: 72px;
+  }
+}

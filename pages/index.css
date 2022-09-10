@@ -45,6 +45,7 @@
 @import url(../blocks/cover/__link-overlay/cover__link-overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__description/cover__description.css);
+@import url(../blocks/cover/__image/cover__image.css);
 /* Подлючаем стили footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);

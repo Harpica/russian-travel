@@ -1,45 +1,23 @@
 .cover {
-  background-image: url(../../images/cover_background.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
   box-sizing: border-box;
-  width: 1184px;
-  height: 740px;
+  max-width: 1184px;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
-.cover::after {
-  display: block;
-  content: "";
+.cover::before {
+  content: '';
+  line-height: 0;
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   background-color: #2A2C2F;
   opacity: 0.3;
 }
 
-.cover:hover::after {
+.cover:hover::before {
   opacity: 0.8;
-}
-
-
-@media screen and (max-width: 1279px) {
-  .cover {
-    width: 1024px;
-    height: 640px;
-  }
-}
-
-/* breackpoit выбран, чтобы учесть ширину вертикального scrollbar'a,
-из-за которого при приближении к размеру изображения 1024px появляется горизонтальная прокрутка*/
-@media screen and (max-width: 1040px) {
-  .cover {
-    /* для того, чтобы изображение уменьшалось пропорционально вместе с экараном */
-    width: 100%;
-    height: calc(0.625 * 100vw);
-  }
 }
