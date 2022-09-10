@@ -9,11 +9,10 @@ which is adapted for common used devices.
 ## Link to published site on GitHub
 * https://harpica.github.io/russian-travel/
 
-## Insruments & Tecnologies
+## Instruments & Tecnologies
 * HTML5.
 * CSS3.
 * Figma.
-------
 * BEM.
 * Nestled file structure of the project.
 * Semantic tags in HTML.
