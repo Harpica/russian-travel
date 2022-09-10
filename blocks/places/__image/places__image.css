@@ -30,7 +30,5 @@
   .places__image {
     padding-left: 0px;
     justify-self: center;
-    grid-row: 3;
-    grid-column: 1;
   }
 }

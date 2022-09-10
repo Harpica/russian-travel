@@ -39,7 +39,7 @@
 @import url(../blocks/places/__paragraph/places__paragraph.css);
 /* Подлючаем стили cover*/
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__link-overlay/cover__link-overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__description/cover__description.css);
 /* Подлючаем стили footer*/

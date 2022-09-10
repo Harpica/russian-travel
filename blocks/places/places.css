@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 1023px) {
   .places {
-    width: 100%;
+    /* добавили отступ 24px слева и справа для всей секции для разрешений от 768px до 1023px*/
+    width: calc(100% - 48px);
   }
 }
 

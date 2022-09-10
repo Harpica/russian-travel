@@ -1,10 +1,10 @@
-.cover__overlay {
+.cover__link-overlay {
   z-index: 1;
   color: #FFFFFF;
   text-decoration: none;
 }
 
-.cover__overlay::before {
+.cover__link-overlay::before {
   content: '';
   position: absolute;
   top: 0;
