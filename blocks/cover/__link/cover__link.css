@@ -9,7 +9,8 @@
   line-height: 0;
   max-width: 1184px;
   min-height: 740px;
-  background: no-repeat center url("../../../images/cover_background.jpg");
+  background: no-repeat center/cover url("../../../images/cover_background.jpg");
+
 }
 
 .cover__link::before {
